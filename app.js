@@ -19,6 +19,7 @@ app.set('view engine', 'ejs');
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 
 // Really bad comment
+/ JERRY WROTE THIS COMMENT BCUZ
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
