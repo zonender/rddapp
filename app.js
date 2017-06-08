@@ -10,7 +10,7 @@ var expressSession = require('express-session');
 var flash = require('connect-flash');
 
 
-// view engine setup
+// view engine creation
 app.engine('ejs', engine);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
