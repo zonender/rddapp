@@ -1,0 +1,15 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /
+hooks:
+  BeforeInstall:
+    - location: Scripts/pre_install_script.sh
+      timeout: 300
+  AfterInstall:
+    - location: Scripts/post_install_script.sh
+      timeout: 300
+  ApplicationStart:
+    - location: Scripts/start_script.sh
+      timeout: 300
