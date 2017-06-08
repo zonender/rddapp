@@ -34,7 +34,7 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-//Add in a fake comment here
+//Better fake comment
 
 // development error handler
 // will print stacktrace
