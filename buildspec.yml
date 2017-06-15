@@ -6,10 +6,10 @@ phases:
   install:
     commands:
       - echo Installing npm dependencies
-      - npm install
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
+      - npm install
   build:
     commands:
       - echo Build started on `date`
