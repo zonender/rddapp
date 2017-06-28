@@ -13,7 +13,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm test
+      - sh ./Scripts/test.sh
   post_build:
     commands:
       - echo Build completed on `date`
